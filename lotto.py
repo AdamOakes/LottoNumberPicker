@@ -1,5 +1,6 @@
 # Widgets:
 from Tkinter import *
+import Image, ImageTk
 window = Tk()
 imgSetup = Image.open( 'logo.jpg' )
 img = ImageTk.PhotoImage(imgSetup)
