@@ -1,10 +1,8 @@
 # Widgets:
 from Tkinter import *
-import Image, ImageTk
-from PIL import Image
 
 window = Tk()
-imgSetup = Image.open( 'logo.jpg' )
+img = PhotoImage ( file = 'logo.gif' )
 img = ImageTk.PhotoImage(imgSetup)
 imgLbl = Label ( window, image = img )
 label1 = Label ( window, relief = 'groove', width = 2 )
