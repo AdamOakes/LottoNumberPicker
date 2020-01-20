@@ -1,7 +1,7 @@
 # Widgets:
 from Tkinter import *
-import Image, ImageTk
-from PIL import Image
+#import Image, ImageTk
+from PIL import Image as img
 
 window = Tk()
 imgSetup = Image.open( 'logo.jpg' )
