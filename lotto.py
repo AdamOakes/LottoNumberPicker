@@ -2,8 +2,8 @@
 from Tkinter import *
 
 window = Tk()
-#img = PhotoImage( file = '/home/adam/Documents/PythonRepo/LottoNumberPicker/logo.jpg')
-#imgLbl = Label( window, image = img )
+img = PhotoImage( file = '/home/adam/Documents/PythonRepo/LottoNumberPicker/logo.jpg')
+imgLbl = Label( window, image = img )
 label1 = Label ( window, relief = 'groove', width = 2 )
 label2 = Label ( window, relief = 'groove', width = 2 )
 label3 = Label ( window, relief = 'groove', width = 2 )
@@ -14,7 +14,7 @@ getBtn = Button( window )
 resBtn = Button( window )
 
 # Geometry:
-#imgLbl.grid( row = 1, column = 1, rowspan = 2 )
+imgLbl.grid( row = 1, column = 1, rowspan = 2 )
 label1.grid( row = 1, column = 2, padx = 10 )
 label2.grid( row = 1, column = 3, padx = 10 )
 label3.grid( row = 1, column = 4, padx = 10 )
