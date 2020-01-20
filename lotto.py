@@ -1,7 +1,8 @@
 # Widgets:
 from Tkinter import *
 window = Tk()
-img = PhotoImage( file = 'logo.jpg' )
+imgSetup = Image.open( 'logo.jpg' )
+img = ImageTk.PhotoImage(imgSetup)
 imgLbl = Label ( window, image = img )
 label1 = Label ( window, relief = 'groove', width = 2 )
 label2 = Label ( window, relief = 'groove', width = 2 )
